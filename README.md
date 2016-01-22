@@ -20,7 +20,7 @@
 
 [Complete] QandA generator: this feature generates the next question when and answers when the user gets the question correct
 
-[Mostly complete] EXTRA: add a feature that collects a userName from the user and personalizes the 'you are correct!' prompt when the user has a successful answer.
+[Significant Progress] EXTRA: add a feature that collects a userName from the user and personalizes the 'you are correct!' prompt when the user has a successful answer.
 
 ####BinarySearch
 
