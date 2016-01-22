@@ -14,7 +14,7 @@ app.questions = [{
 	},
 	{
 		'question': 'Which best explains getSelection()?',
-		'choices': ['Returns the VALUE of a selected OPTION.', 'Returns document.URL of the window in focus.', 'Returns the value of cursor-selected text', ' Returns the VALUE of a checked radio input.'],
+		'choices': ['Returns the VALUE of a selected OPTION.', 'Returns document.URL of the window in focus.', 'Returns the value of cursor-selected text', ' Returns the VALUE of a checked ans input.'],
 		'correct': 'Returns the value of cursor-selected text',
 		'refPage': 'https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection'
 	},
