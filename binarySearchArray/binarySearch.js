@@ -30,20 +30,20 @@ var binarySearch = function (array, target) {
         if (array[find] === target) {
         //if find locates the target index in the array
             return find;
-            //stop the function, and return resultant target index.
-        } else {
-            if (array[find] < target) {
-        	//else if find stops short of locating the target index,
-                start = find + 1;
-                //set find to look one index position up (move forward thru array)
-        } else {
-    	//else, find was looking too high up in the index
-                end = find - 1;
-                //set find to look one index position down (backward)
+            //stop firing the function, and return resultant target index.
+        	} else {
+            	if (array[find] < target) {
+        		//else if find stops short of locating the target index, it was looking too low, so
+                	start = find + 1;
+                	//set find to start looking one index position up (move forward thru array)
+        		} else {
+    			//else, find was looking too high up in the index
+                	end = find - 1;
+                	//set find to look one index position down (move backward thru the array)
 
-            }
-        }
-    }
+            	}
+        	}
+    	}
 
     return -1;
     //return -1 if the target index isnt present in the array, because -1 can't be an array index value
